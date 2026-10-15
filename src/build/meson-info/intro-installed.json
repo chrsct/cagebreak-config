@@ -1,0 +1,8 @@
+{
+  "/home/chrs/repo/cagebreak/build/cagebreak": "/usr/local/bin/cagebreak",
+  "/home/chrs/repo/cagebreak/build/cagebreak.1": "/usr/local/share/man/man1/cagebreak.1",
+  "/home/chrs/repo/cagebreak/build/cagebreak-config.5": "/usr/local/share/man/man5/cagebreak-config.5",
+  "/home/chrs/repo/cagebreak/build/cagebreak-socket.7": "/usr/local/share/man/man7/cagebreak-socket.7",
+  "/home/chrs/repo/cagebreak/examples/config": "/etc/xdg/cagebreak/config",
+  "/home/chrs/repo/cagebreak/LICENSE": "/usr/share/licenses/cagebreak/LICENSE"
+}

@@ -1,0 +1,358 @@
+[
+  {
+    "name": "cagebreak",
+    "id": "cagebreak@exe",
+    "type": "executable",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/cagebreak"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "c",
+        "machine": "host",
+        "compiler": [
+          "cc"
+        ],
+        "parameters": [
+          "-I/home/chrs/repo/cagebreak/build/cagebreak.p",
+          "-I/home/chrs/repo/cagebreak/build",
+          "-I/home/chrs/repo/cagebreak",
+          "-I/usr/include/wlroots-0.20",
+          "-I/usr/include/pixman-1",
+          "-I/usr/include/libdrm",
+          "-I/usr/include/freetype2",
+          "-I/usr/include/libpng16",
+          "-I/usr/include/libevdev-1.0",
+          "-I/usr/include/pango-1.0",
+          "-I/usr/include/harfbuzz",
+          "-I/usr/include/glib-2.0",
+          "-I/usr/lib/glib-2.0/include",
+          "-I/usr/include/libmount",
+          "-I/usr/include/blkid",
+          "-I/usr/include/fribidi",
+          "-I/usr/include/cairo",
+          "-I/usr/include/sysprof-6",
+          "-fdiagnostics-color=always",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-Wextra",
+          "-Wpedantic",
+          "-std=c23",
+          "-O3",
+          "-DWLR_USE_UNSTABLE",
+          "-Werror=implicit-function-declaration",
+          "-Wundef",
+          "-pthread"
+        ],
+        "sources": [
+          "/home/chrs/repo/cagebreak/cagebreak.c",
+          "/home/chrs/repo/cagebreak/idle_inhibit_v1.c",
+          "/home/chrs/repo/cagebreak/input_manager.c",
+          "/home/chrs/repo/cagebreak/ipc_server.c",
+          "/home/chrs/repo/cagebreak/keybinding.c",
+          "/home/chrs/repo/cagebreak/layer_shell.c",
+          "/home/chrs/repo/cagebreak/workspace.c",
+          "/home/chrs/repo/cagebreak/output.c",
+          "/home/chrs/repo/cagebreak/parse.c",
+          "/home/chrs/repo/cagebreak/seat.c",
+          "/home/chrs/repo/cagebreak/util.c",
+          "/home/chrs/repo/cagebreak/view.c",
+          "/home/chrs/repo/cagebreak/xdg_shell.c",
+          "/home/chrs/repo/cagebreak/libinput.c",
+          "/home/chrs/repo/cagebreak/server.c",
+          "/home/chrs/repo/cagebreak/message.c",
+          "/home/chrs/repo/cagebreak/pango.c",
+          "/home/chrs/repo/cagebreak/xwayland.c"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "cc"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-Wl,-O1",
+          "-fanalyzer",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "/usr/lib/libwayland-server.so",
+          "-lm",
+          "/usr/lib/libwayland-client.so",
+          "/usr/lib/libwayland-cursor.so",
+          "/usr/lib/libwlroots-0.20.so",
+          "/usr/lib/libxkbcommon.so",
+          "/usr/lib/libfontconfig.so",
+          "/usr/lib/libinput.so",
+          "/usr/lib/libevdev.so",
+          "/usr/lib/libudev.so",
+          "/usr/lib/libpango-1.0.so",
+          "/usr/lib/libharfbuzz.so",
+          "/usr/lib/libgobject-2.0.so",
+          "/usr/lib/libglib-2.0.so",
+          "/usr/lib/libcairo.so",
+          "/usr/lib/libpangocairo-1.0.so",
+          "/usr/lib/libpixman-1.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "wayland-server",
+      "wayland-client",
+      "wayland-cursor",
+      "wlroots-0.20",
+      "xkbcommon",
+      "fontconfig",
+      "libinput",
+      "libevdev",
+      "libudev",
+      "pango",
+      "cairo",
+      "pangocairo",
+      "pixman-1",
+      "m"
+    ],
+    "depends": [],
+    "win_subsystem": "console",
+    "installed": true,
+    "install_filename": [
+      "/usr/local/bin/cagebreak"
+    ]
+  },
+  {
+    "name": "cagebreak_man",
+    "id": "cagebreak_man@cus",
+    "type": "custom",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/cagebreak.1"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/usr/sbin/sh",
+          "-c",
+          "export SOURCE_DATE_EPOCH=1780759651 ; /usr/sbin/scdoc < @INPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/home/chrs/repo/cagebreak/man/cagebreak.1.md"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/usr/local/share/man/man1/cagebreak.1"
+    ]
+  },
+  {
+    "name": "cagebreak_config_man",
+    "id": "cagebreak_config_man@cus",
+    "type": "custom",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/cagebreak-config.5"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/usr/sbin/sh",
+          "-c",
+          "export SOURCE_DATE_EPOCH=1780759651 ; /usr/sbin/scdoc < @INPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/home/chrs/repo/cagebreak/man/cagebreak-config.5.md"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/usr/local/share/man/man5/cagebreak-config.5"
+    ]
+  },
+  {
+    "name": "cagebreak_socket_man",
+    "id": "cagebreak_socket_man@cus",
+    "type": "custom",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/cagebreak-socket.7"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/usr/sbin/sh",
+          "-c",
+          "export SOURCE_DATE_EPOCH=1780759651 ; /usr/sbin/scdoc < @INPUT@"
+        ],
+        "parameters": [],
+        "sources": [
+          "/home/chrs/repo/cagebreak/man/cagebreak-socket.7.md"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/usr/local/share/man/man7/cagebreak-socket.7"
+    ]
+  },
+  {
+    "name": "devel-install",
+    "id": "devel-install@run",
+    "type": "run",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/devel-install"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "fuzz",
+    "id": "fuzz@run",
+    "type": "run",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/fuzz"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "adjust-epoch",
+    "id": "adjust-epoch@run",
+    "type": "run",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/adjust-epoch"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "git-tag",
+    "id": "git-tag@run",
+    "type": "run",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/git-tag"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "output-hashes",
+    "id": "output-hashes@run",
+    "type": "run",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/output-hashes"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "create-sigs",
+    "id": "create-sigs@run",
+    "type": "run",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/create-sigs"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "set-ver",
+    "id": "set-ver@run",
+    "type": "run",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/set-ver"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "create-artefacts",
+    "id": "create-artefacts@run",
+    "type": "run",
+    "defined_in": "/home/chrs/repo/cagebreak/meson.build",
+    "filename": [
+      "/home/chrs/repo/cagebreak/build/create-artefacts"
+    ],
+    "build_by_default": false,
+    "target_sources": [],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  }
+]

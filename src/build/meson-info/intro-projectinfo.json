@@ -1,0 +1,10 @@
+{
+  "version": "3.2.1",
+  "descriptive_name": "cagebreak",
+  "license": [
+    "MIT"
+  ],
+  "license_files": [],
+  "subproject_dir": "subprojects",
+  "subprojects": []
+}

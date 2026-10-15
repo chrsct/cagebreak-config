@@ -1,0 +1,110 @@
+[
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/cagebreak.c.o -MF cagebreak.p/cagebreak.c.o.d -o cagebreak.p/cagebreak.c.o -c ../cagebreak.c",
+    "file": "../cagebreak.c",
+    "output": "cagebreak.p/cagebreak.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/idle_inhibit_v1.c.o -MF cagebreak.p/idle_inhibit_v1.c.o.d -o cagebreak.p/idle_inhibit_v1.c.o -c ../idle_inhibit_v1.c",
+    "file": "../idle_inhibit_v1.c",
+    "output": "cagebreak.p/idle_inhibit_v1.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/input_manager.c.o -MF cagebreak.p/input_manager.c.o.d -o cagebreak.p/input_manager.c.o -c ../input_manager.c",
+    "file": "../input_manager.c",
+    "output": "cagebreak.p/input_manager.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/ipc_server.c.o -MF cagebreak.p/ipc_server.c.o.d -o cagebreak.p/ipc_server.c.o -c ../ipc_server.c",
+    "file": "../ipc_server.c",
+    "output": "cagebreak.p/ipc_server.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/keybinding.c.o -MF cagebreak.p/keybinding.c.o.d -o cagebreak.p/keybinding.c.o -c ../keybinding.c",
+    "file": "../keybinding.c",
+    "output": "cagebreak.p/keybinding.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/layer_shell.c.o -MF cagebreak.p/layer_shell.c.o.d -o cagebreak.p/layer_shell.c.o -c ../layer_shell.c",
+    "file": "../layer_shell.c",
+    "output": "cagebreak.p/layer_shell.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/workspace.c.o -MF cagebreak.p/workspace.c.o.d -o cagebreak.p/workspace.c.o -c ../workspace.c",
+    "file": "../workspace.c",
+    "output": "cagebreak.p/workspace.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/output.c.o -MF cagebreak.p/output.c.o.d -o cagebreak.p/output.c.o -c ../output.c",
+    "file": "../output.c",
+    "output": "cagebreak.p/output.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/parse.c.o -MF cagebreak.p/parse.c.o.d -o cagebreak.p/parse.c.o -c ../parse.c",
+    "file": "../parse.c",
+    "output": "cagebreak.p/parse.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/seat.c.o -MF cagebreak.p/seat.c.o.d -o cagebreak.p/seat.c.o -c ../seat.c",
+    "file": "../seat.c",
+    "output": "cagebreak.p/seat.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/util.c.o -MF cagebreak.p/util.c.o.d -o cagebreak.p/util.c.o -c ../util.c",
+    "file": "../util.c",
+    "output": "cagebreak.p/util.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/view.c.o -MF cagebreak.p/view.c.o.d -o cagebreak.p/view.c.o -c ../view.c",
+    "file": "../view.c",
+    "output": "cagebreak.p/view.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/xdg_shell.c.o -MF cagebreak.p/xdg_shell.c.o.d -o cagebreak.p/xdg_shell.c.o -c ../xdg_shell.c",
+    "file": "../xdg_shell.c",
+    "output": "cagebreak.p/xdg_shell.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/libinput.c.o -MF cagebreak.p/libinput.c.o.d -o cagebreak.p/libinput.c.o -c ../libinput.c",
+    "file": "../libinput.c",
+    "output": "cagebreak.p/libinput.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/server.c.o -MF cagebreak.p/server.c.o.d -o cagebreak.p/server.c.o -c ../server.c",
+    "file": "../server.c",
+    "output": "cagebreak.p/server.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/message.c.o -MF cagebreak.p/message.c.o.d -o cagebreak.p/message.c.o -c ../message.c",
+    "file": "../message.c",
+    "output": "cagebreak.p/message.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/pango.c.o -MF cagebreak.p/pango.c.o.d -o cagebreak.p/pango.c.o -c ../pango.c",
+    "file": "../pango.c",
+    "output": "cagebreak.p/pango.c.o"
+  },
+  {
+    "directory": "/home/chrs/repo/cagebreak/build",
+    "command": "cc -Icagebreak.p -I. -I.. -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libevdev-1.0 -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/sysprof-6 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -Wpedantic -std=c23 -O3 -DWLR_USE_UNSTABLE -Werror=implicit-function-declaration -Wundef -pthread -MD -MQ cagebreak.p/xwayland.c.o -MF cagebreak.p/xwayland.c.o.d -o cagebreak.p/xwayland.c.o -c ../xwayland.c",
+    "file": "../xwayland.c",
+    "output": "cagebreak.p/xwayland.c.o"
+  }
+]

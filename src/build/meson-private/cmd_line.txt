@@ -1,0 +1,7 @@
+[options]
+buildtype = release
+xwayland = true
+man-pages = true
+
+[properties]
+

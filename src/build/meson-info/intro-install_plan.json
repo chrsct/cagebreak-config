@@ -1,0 +1,44 @@
+{
+  "targets": {
+    "/home/chrs/repo/cagebreak/build/cagebreak": {
+      "destination": "{bindir}/cagebreak",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    },
+    "/home/chrs/repo/cagebreak/build/cagebreak.1": {
+      "destination": "{mandir}/man1/cagebreak.1",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    },
+    "/home/chrs/repo/cagebreak/build/cagebreak-config.5": {
+      "destination": "{mandir}/man5/cagebreak-config.5",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    },
+    "/home/chrs/repo/cagebreak/build/cagebreak-socket.7": {
+      "destination": "{mandir}/man7/cagebreak-socket.7",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null,
+      "build_rpaths": []
+    }
+  },
+  "data": {
+    "/home/chrs/repo/cagebreak/examples/config": {
+      "destination": "/etc/xdg/cagebreak/config",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/chrs/repo/cagebreak/LICENSE": {
+      "destination": "/usr/share/licenses/cagebreak/LICENSE",
+      "tag": null,
+      "subproject": null
+    }
+  }
+}

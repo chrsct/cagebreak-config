@@ -1,0 +1,678 @@
+Build started at 2026-10-16T01:12:09.031200
+Main binary: /usr/bin/python
+Build Options: -Dbuildtype=release -Dxwayland=true -Dman-pages=true
+Python system: Linux
+The Meson build system
+Version: 1.12.1
+Source dir: /home/chrs/repo/cagebreak
+Build dir: /home/chrs/repo/cagebreak/build
+Build type: native build
+Project name: cagebreak
+Project version: 3.2.1
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (GCC) 16.2.1 20260810
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.47
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 16.2.1 20260810
+/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3COQKr.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib --version -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+-----------
+Sanity check compiler command line: cc -o sanity_check_for_c.exe sanity_check_for_c.c -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for host machine c compiler
+ -- Running test binary command:  /home/chrs/repo/cagebreak/build/meson-private/sanity_check_for_c.exe
+-----------
+Sanity check: `/home/chrs/repo/cagebreak/build/meson-private/sanity_check_for_c.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C compiler for the host machine: cc (gcc 16.2.1 "cc (GCC) 16.2.1 20260810")
+C linker for the host machine: cc ld.bfd 2.47
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.47
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
+-----------
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (GCC) 16.2.1 20260810
+Copyright (C) 2026 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.47
+Copyright (C) 2026 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
+-----------
+stderr:
+collect2 version 16.2.1 20260810
+/usr/sbin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccARiPw1.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib --version -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+-----------
+Sanity check compiler command line: cc -o sanity_check_for_c.exe sanity_check_for_c.c -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Sanity check built target output for build machine c compiler
+ -- Running test binary command:  /home/chrs/repo/cagebreak/build/meson-private/sanity_check_for_c.exe
+-----------
+Sanity check: `/home/chrs/repo/cagebreak/build/meson-private/sanity_check_for_c.exe` -> 0
+ -- stdout:
+ 
+ -- stderr:
+ 
+ -- returncode: 0
+C compiler for the build machine: cc (gcc 16.2.1 "cc (GCC) 16.2.1 20260810")
+C linker for the build machine: cc ld.bfd 2.47
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/sbin/pkg-config) 3.0.7
+Determining dependency 'wlroots-0.20' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion wlroots-0.20` -> 0
+stdout:
+0.20.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags wlroots-0.20` -> 0
+stdout:
+-I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wlroots-0.20` -> 0
+stdout:
+-L/usr/lib -lwlroots-0.20
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wlroots-0.20` -> 0
+stdout:
+-lwlroots-0.20
+-----------
+Running compile:
+Working directory:  /home/chrs/repo/cagebreak/build/meson-private/tmptu9erpc4
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `cc /home/chrs/repo/cagebreak/build/meson-private/tmptu9erpc4/testfile.c -o /home/chrs/repo/cagebreak/build/meson-private/tmptu9erpc4/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/chrs/repo/cagebreak/build/meson-private/tmprfy64189
+Code:
+
+-----------
+Command line: `cc /home/chrs/repo/cagebreak/build/meson-private/tmprfy64189/testfile.c -o /home/chrs/repo/cagebreak/build/meson-private/tmprfy64189/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-pc-linux-gnu/16/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/x86_64-pc-linux-gnu/16/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/16/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
+-----------
+Run-time dependency wlroots-0.20 found: YES 0.20.2
+Determining dependency 'wayland-protocols' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion wayland-protocols` -> 0
+stdout:
+1.49
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags wayland-protocols` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wayland-protocols` -> 0
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wayland-protocols` -> 0
+Run-time dependency wayland-protocols found: YES 1.49
+Determining dependency 'wayland-server' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion wayland-server` -> 0
+stdout:
+1.26.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags wayland-server` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wayland-server` -> 0
+stdout:
+-L/usr/lib -lwayland-server -lm
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wayland-server` -> 0
+stdout:
+-lwayland-server -lm
+-----------
+Running compile:
+Working directory:  /home/chrs/repo/cagebreak/build/meson-private/tmp5uflm4c3
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/chrs/repo/cagebreak/build/meson-private/tmp5uflm4c3/testfile.c -o /home/chrs/repo/cagebreak/build/meson-private/tmp5uflm4c3/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -lm -Wl,--allow-shlib-undefined` -> 0
+Run-time dependency wayland-server found: YES 1.26.0
+Determining dependency 'wayland-cursor' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion wayland-cursor` -> 0
+stdout:
+1.26.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags wayland-cursor` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wayland-cursor` -> 0
+stdout:
+-L/usr/lib -lwayland-cursor
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wayland-cursor` -> 0
+stdout:
+-lwayland-cursor
+-----------
+Run-time dependency wayland-cursor found: YES 1.26.0
+Determining dependency 'wayland-client' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion wayland-client` -> 0
+stdout:
+1.26.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags wayland-client` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wayland-client` -> 0
+stdout:
+-L/usr/lib -lwayland-client -lm
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs wayland-client` -> 0
+stdout:
+-lwayland-client -lm
+-----------
+Run-time dependency wayland-client found: YES 1.26.0
+Determining dependency 'xkbcommon' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion xkbcommon` -> 0
+stdout:
+1.13.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags xkbcommon` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs xkbcommon` -> 0
+stdout:
+-L/usr/lib -lxkbcommon
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs xkbcommon` -> 0
+stdout:
+-lxkbcommon
+-----------
+Run-time dependency xkbcommon found: YES 1.13.2
+Determining dependency 'cairo' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion cairo` -> 0
+stdout:
+1.18.6
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags cairo` -> 0
+stdout:
+-I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/pixman-1
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs cairo` -> 0
+stdout:
+-L/usr/lib -lcairo
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs cairo` -> 0
+stdout:
+-lcairo
+-----------
+Run-time dependency cairo found: YES 1.18.6
+Determining dependency 'pango' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion pango` -> 0
+stdout:
+1.58.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags pango` -> 0
+stdout:
+-I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/pixman-1 -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs pango` -> 0
+stdout:
+-L/usr/lib -lpango-1.0 -lharfbuzz -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs pango` -> 0
+stdout:
+-lpango-1.0 -lharfbuzz -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency pango found: YES 1.58.2
+Determining dependency 'pangocairo' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion pangocairo` -> 0
+stdout:
+1.58.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags pangocairo` -> 0
+stdout:
+-I/usr/include/pango-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs pangocairo` -> 0
+stdout:
+-L/usr/lib -lpangocairo-1.0 -lpango-1.0 -lcairo -lharfbuzz -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs pangocairo` -> 0
+stdout:
+-lpangocairo-1.0 -lpango-1.0 -lcairo -lharfbuzz -lgobject-2.0 -lglib-2.0
+-----------
+Run-time dependency pangocairo found: YES 1.58.2
+Determining dependency 'fontconfig' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion fontconfig` -> 0
+stdout:
+2.18.3
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags fontconfig` -> 0
+stdout:
+-I/usr/include/freetype2 -I/usr/include/libpng16
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs fontconfig` -> 0
+stdout:
+-L/usr/lib -lfontconfig
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs fontconfig` -> 0
+stdout:
+-lfontconfig
+-----------
+Run-time dependency fontconfig found: YES 2.18.3
+Determining dependency 'libinput' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion libinput` -> 0
+stdout:
+1.32.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags libinput` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs libinput` -> 0
+stdout:
+-L/usr/lib -linput
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs libinput` -> 0
+stdout:
+-linput
+-----------
+Run-time dependency libinput found: YES 1.32.0
+Determining dependency 'libevdev' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion libevdev` -> 0
+stdout:
+1.14.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags libevdev` -> 0
+stdout:
+-I/usr/include/libevdev-1.0
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs libevdev` -> 0
+stdout:
+-L/usr/lib -levdev
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs libevdev` -> 0
+stdout:
+-levdev
+-----------
+Run-time dependency libevdev found: YES 1.14.0
+Determining dependency 'libudev' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion libudev` -> 0
+stdout:
+262
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags libudev` -> 0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs libudev` -> 0
+stdout:
+-L/usr/lib -ludev
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs libudev` -> 0
+stdout:
+-ludev
+-----------
+Run-time dependency libudev found: YES 262
+Determining dependency 'pixman-1' with pkg-config executable '/usr/sbin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --modversion pixman-1` -> 0
+stdout:
+0.46.4
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --cflags pixman-1` -> 0
+stdout:
+-I/usr/include/pixman-1
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs pixman-1` -> 0
+stdout:
+-L/usr/lib -lpixman-1
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --libs pixman-1` -> 0
+stdout:
+-lpixman-1
+-----------
+Run-time dependency pixman-1 found: YES 0.46.4
+Running compile:
+Working directory:  /home/chrs/repo/cagebreak/build/meson-private/tmpud5xbhdg
+Code:
+int main(void) { return 0; }
+
+-----------
+Command line: `cc /home/chrs/repo/cagebreak/build/meson-private/tmpud5xbhdg/testfile.c -o /home/chrs/repo/cagebreak/build/meson-private/tmpud5xbhdg/output.exe -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -lm -Wl,--allow-shlib-undefined` -> 0
+Library m found: YES
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/sbin/pkg-config
+-----------
+Called: `/usr/sbin/pkg-config --variable=pkgdatadir wayland-protocols` -> 0
+stdout:
+/usr/share/wayland-protocols
+-----------
+Got pkg-config variable pkgdatadir : /usr/share/wayland-protocols
+Program wayland-scanner found: YES (/usr/sbin/wayland-scanner)
+Running compile:
+Working directory:  /tmp/tmpwunflhtm
+Code:
+
+        #include <wlr/config.h>
+        #ifndef WLR_HAS_XWAYLAND
+        # define WLR_HAS_XWAYLAND "MESON_GET_DEFINE_UNDEFINED_SENTINEL"
+        #endif
+        "MESON_GET_DEFINE_DELIMITER_START"
+WLR_HAS_XWAYLAND
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Command line: `cc -I/usr/include/wlroots-0.20 -I/usr/include/pixman-1 -I/usr/include/libdrm /tmp/tmpwunflhtm/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -U_FORTIFY_SOURCE -std=c23` -> 0
+stdout:
+"MESON_GET_DEFINE_DELIMITER_START"
+1
+"MESON_GET_DEFINE_DELIMITER_END"
+-----------
+Fetching value of define "WLR_HAS_XWAYLAND" with dependency wlroots-0.20: 1 
+Running compile:
+Working directory:  /home/chrs/repo/cagebreak/build/meson-private/tmpudvqf93t
+Code:
+extern int i;
+int i;
+
+-----------
+Command line: `cc /home/chrs/repo/cagebreak/build/meson-private/tmpudvqf93t/testfile.c -o /home/chrs/repo/cagebreak/build/meson-private/tmpudvqf93t/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -U_FORTIFY_SOURCE -fanalyzer` -> 0
+Compiler for C supports arguments -fanalyzer: YES 
+Configuring config.h using configuration
+meson.build:238: WARNING: The installed version of "wayland_client" on your machine (1.26.0) differs from the one used to generate the binary specified in Hashes.md (1.25.0). Cagebreak does not guarantee a reproducible build for this configuration.
+meson.build:251: WARNING: The version of gcc (16.2.1) differs from the one used to generate the binary specified in Hashes.md 16.1.1.
+Program scdoc found: YES (/usr/sbin/scdoc)
+Program sh found: YES (/usr/sbin/sh)
+Message: 
+Cagebreak 3.2.1
+
+    xwayland: true
+
+Program test/build-w-o-warnings found: YES (/bin/sh /home/chrs/repo/cagebreak/test/build-w-o-warnings)
+Adding test "Build without warnings"
+Program test/script-header found: YES (/bin/bash /home/chrs/repo/cagebreak/test/script-header)
+Adding test "Example script header is consistent"
+Program test/script-header found: YES (/bin/bash /home/chrs/repo/cagebreak/test/script-header)
+Adding test "Script executability is consistent"
+Program test/man-pages found: YES (/bin/bash /home/chrs/repo/cagebreak/test/man-pages)
+Adding test "Man page consistency"
+Program test/build-w-o-xwayland found: YES (/bin/sh /home/chrs/repo/cagebreak/test/build-w-o-xwayland)
+Adding test "Build without xwayland"
+Program test/copyright-license found: YES (/bin/bash /home/chrs/repo/cagebreak/test/copyright-license)
+Adding test "Copyright and LICENSE"
+Program test/clang-format found: YES (/bin/sh /home/chrs/repo/cagebreak/test/clang-format)
+Adding test "Formatting check (clang-format)"
+Program test/shellcheck found: YES (/bin/bash /home/chrs/repo/cagebreak/test/shellcheck)
+Adding test "Script linting (shellcheck)"
+Program test/gpg-validity found: YES (/bin/bash /home/chrs/repo/cagebreak/test/gpg-validity)
+Adding test "GPG key validity"
+Program test/illegal-strings found: YES (/bin/bash /home/chrs/repo/cagebreak/test/illegal-strings)
+Adding test "Illegal Strings"
+Program test/scan-build found: YES (/bin/bash /home/chrs/repo/cagebreak/test/scan-build)
+Adding test "Static analysis (scan-build)"
+Program test/arguments found: YES (/bin/bash /home/chrs/repo/cagebreak/test/arguments)
+Adding test "Arguments"
+Program test/environment-variables found: YES (/bin/bash /home/chrs/repo/cagebreak/test/environment-variables)
+Adding test "Environment Variables"
+Program test/versions found: YES (/bin/bash /home/chrs/repo/cagebreak/test/versions)
+Adding test "Semantic versioning"
+Program test/gpg-signatures found: YES (/bin/bash /home/chrs/repo/cagebreak/test/gpg-signatures)
+Adding test "Signature validity"
+Program test/hashes-md found: YES (/bin/bash /home/chrs/repo/cagebreak/test/hashes-md)
+Adding test "Hashes.md"
+Program test/non-auto-tests found: YES (/bin/bash /home/chrs/repo/cagebreak/test/non-auto-tests)
+Adding test "Non-auto tests"
+Program test/git-tag found: YES (/bin/bash /home/chrs/repo/cagebreak/test/git-tag)
+Adding test "Git tag"
+Program test/check-artefacts found: YES (/bin/sh /home/chrs/repo/cagebreak/test/check-artefacts)
+Adding test "Release-artefacts"
+Build targets in project: 12
+
+cagebreak 3.2.1
+
+  User defined options
+    buildtype: release
+    man-pages: true
+    xwayland : true
+
+Found ninja-1.13.2 at /usr/sbin/ninja
+Failed to guess install tag for /usr/local/share/man/man1/cagebreak.1
+Failed to guess install tag for /usr/local/share/man/man5/cagebreak-config.5
+Failed to guess install tag for /usr/local/share/man/man7/cagebreak-socket.7
+Failed to guess install tag for /etc/xdg/cagebreak/config
+Failed to guess install tag for /usr/share/licenses/cagebreak/LICENSE
+Failed to guess install tag for /usr/local/share/man/man1/cagebreak.1
+Failed to guess install tag for /usr/local/share/man/man5/cagebreak-config.5
+Failed to guess install tag for /usr/local/share/man/man7/cagebreak-socket.7
+Failed to guess install tag for /etc/xdg/cagebreak/config
+Failed to guess install tag for /usr/share/licenses/cagebreak/LICENSE
+Failed to guess install tag for /usr/local/share/man/man1/cagebreak.1
+Failed to guess install tag for /usr/local/share/man/man5/cagebreak-config.5
+Failed to guess install tag for /usr/local/share/man/man7/cagebreak-socket.7
+Failed to guess install tag for /etc/xdg/cagebreak/config
+Failed to guess install tag for /usr/share/licenses/cagebreak/LICENSE
+Failed to guess install tag for /usr/local/share/man/man1/cagebreak.1
+Failed to guess install tag for /usr/local/share/man/man5/cagebreak-config.5
+Failed to guess install tag for /usr/local/share/man/man7/cagebreak-socket.7
+Failed to guess install tag for /etc/xdg/cagebreak/config
+Failed to guess install tag for /usr/share/licenses/cagebreak/LICENSE

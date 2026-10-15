@@ -1,0 +1,462 @@
+[
+  {
+    "cmd": [
+      "/bin/sh",
+      "/home/chrs/repo/cagebreak/test/build-w-o-warnings"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Build without warnings",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/script-header"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Example script header is consistent",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/script-header"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Script executability is consistent",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/man-pages"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Man page consistency",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/sh",
+      "/home/chrs/repo/cagebreak/test/build-w-o-xwayland"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Build without xwayland",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/copyright-license",
+      "cagebreak.c",
+      "idle_inhibit_v1.c",
+      "input_manager.c",
+      "ipc_server.c",
+      "keybinding.c",
+      "layer_shell.c",
+      "workspace.c",
+      "output.c",
+      "parse.c",
+      "seat.c",
+      "util.c",
+      "view.c",
+      "xdg_shell.c",
+      "libinput.c",
+      "server.c",
+      "message.c",
+      "pango.c",
+      "xwayland.c",
+      "idle_inhibit_v1.h",
+      "ipc_server.h",
+      "keybinding.h",
+      "layer_shell.h",
+      "workspace.h",
+      "output.h",
+      "parse.h",
+      "seat.h",
+      "server.h",
+      "util.h",
+      "view.h",
+      "xdg_shell.h",
+      "pango.h",
+      "message.h",
+      "xwayland.h",
+      "fuzz/fuzz-parse.c",
+      "fuzz/fuzz-lib.c",
+      "parse.h",
+      "fuzz/fuzz-lib.h",
+      "fuzz/execl_override.c"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak",
+      "MESONLICENSE": "MIT"
+    },
+    "name": "Copyright and LICENSE",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/sh",
+      "/home/chrs/repo/cagebreak/test/clang-format",
+      "cagebreak.c",
+      "idle_inhibit_v1.c",
+      "input_manager.c",
+      "ipc_server.c",
+      "keybinding.c",
+      "layer_shell.c",
+      "workspace.c",
+      "output.c",
+      "parse.c",
+      "seat.c",
+      "util.c",
+      "view.c",
+      "xdg_shell.c",
+      "libinput.c",
+      "server.c",
+      "message.c",
+      "pango.c",
+      "xwayland.c",
+      "idle_inhibit_v1.h",
+      "ipc_server.h",
+      "keybinding.h",
+      "layer_shell.h",
+      "workspace.h",
+      "output.h",
+      "parse.h",
+      "seat.h",
+      "server.h",
+      "util.h",
+      "view.h",
+      "xdg_shell.h",
+      "pango.h",
+      "message.h",
+      "xwayland.h",
+      "fuzz/fuzz-parse.c",
+      "fuzz/fuzz-lib.c",
+      "parse.h",
+      "fuzz/fuzz-lib.h",
+      "fuzz/execl_override.c"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Formatting check (clang-format)",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/shellcheck"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Script linting (shellcheck)",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/gpg-validity",
+      "3.2.1"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "GPG key validity",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/illegal-strings"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Illegal Strings",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/scan-build"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Static analysis (scan-build)",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:devel-long"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/arguments",
+      "3.2.1"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Arguments",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:basic"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/environment-variables"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Environment Variables",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:basic"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/versions",
+      "3.2.1"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Semantic versioning",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:release"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/gpg-signatures"
+    ],
+    "env": {},
+    "name": "Signature validity",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:release"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/hashes-md",
+      "3.2.1"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Hashes.md",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:release"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/non-auto-tests",
+      "3.2.1"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Non-auto tests",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:release"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/bash",
+      "/home/chrs/repo/cagebreak/test/git-tag",
+      "3.2.1"
+    ],
+    "env": {},
+    "name": "Git tag",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:release"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  },
+  {
+    "cmd": [
+      "/bin/sh",
+      "/home/chrs/repo/cagebreak/test/check-artefacts",
+      "3.2.1"
+    ],
+    "env": {
+      "MESONCURRENTCONFIGDIR": "/home/chrs/repo/cagebreak"
+    },
+    "name": "Release-artefacts",
+    "workdir": null,
+    "timeout": 30,
+    "suite": [
+      "cagebreak:release"
+    ],
+    "is_parallel": true,
+    "priority": 0,
+    "protocol": "exitcode",
+    "depends": [],
+    "extra_paths": []
+  }
+]
