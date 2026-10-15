@@ -3,9 +3,9 @@ set -e
 
 echo "Starting installation..."
 sudo pacman -S --needed pamixer brightnessctl libinput --noconfirm
-mv src/config/* ~/.config/
-mv src/session-config/cagebreak.desktop /usr/share/wayland-sessions/
-mv src/build/cagebreak /bin/cb
+sudo cp -r src/config/* ~/.config/
+sudo cp -r src/session-config/cagebreak.desktop /usr/share/wayland-sessions/
+sudo cp -r src/build/cagebreak /bin/cb
 sudo chmod 644 /usr/share/wayland-sessions/cagebreak.desktop
 sudo chmod 644 /bin/cb
 echo "Installation complete!"
