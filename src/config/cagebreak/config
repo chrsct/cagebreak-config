@@ -1,0 +1,116 @@
+exec kitty
+
+workspaces 6
+background 0.0 0.0 0.0
+
+escape L-q
+
+bind M exec sudo systemctl restart --now ly@tty1
+bind s hsplit
+bind S vsplit
+bind Q only
+bind Tab focus
+bind A-Tab focusprev
+bind n next
+bind p prev
+bind w exec chromium
+bind R setmode resize
+bind N nextscreen
+bind P prevscreen
+bind a time
+bind C-n movetonextscreen
+bind C-p movetoprevscreen
+bind H exchangeleft
+bind J exchangedown
+bind K exchangeup
+#bind L exchangeright
+bind h focusleft
+bind j focusdown
+bind k focusup
+bind l focusright
+bind q exec kitty
+bind c close
+
+# bind m message Hello World!
+definekey resize h resizeleft
+definekey resize l resizeright
+definekey resize j resizedown
+definekey resize k resizeup
+definekey resize Escape setmode top
+
+# unhide cursor (default)
+cursor enable
+# send a custom event over the socket
+# custom_event Hello World!
+
+# Workspace Configuration Motherfucker
+# Screen
+bind 1 screen 1
+bind 2 screen 2
+bind 3 screen 3
+bind 4 screen 4
+bind 5 screen 5
+bind 6 screen 6
+
+# an Actual Workspace Bind
+bind L-1 movetoscreen 1
+bind L-2 movetoscreen 2
+bind L-3 movetoscreen 3
+bind L-4 movetoscreen 4
+bind L-5 movetoscreen 5
+bind L-6 movetoscreen 6
+# Making this a "top" so i don't have to press Mod + q everytime i (SWITCH) to a New Workspace.
+definekey top L-1 workspace 1
+definekey top L-2 workspace 2
+definekey top L-3 workspace 3
+definekey top L-4 workspace 4
+definekey top L-5 workspace 5
+definekey top L-6 workspace 6
+
+# Same Reason but different function: I want to (MOVE) the focused application to a New Workspace.
+definekey top C-1 movetoworkspace 1
+definekey top C-2 movetoworkspace 2
+definekey top C-3 movetoworkspace 3
+definekey top C-4 movetoworkspace 4
+definekey top C-5 movetoworkspace 5
+definekey top C-6 movetoworkspace 6
+
+
+definekey top XF86_Switch_VT_1 switchvt 1
+definekey top XF86_Switch_VT_2 switchvt 2
+definekey top XF86_Switch_VT_3 switchvt 3
+definekey top XF86_Switch_VT_4 switchvt 4
+definekey top XF86_Switch_VT_5 switchvt 5
+definekey top XF86_Switch_VT_6 switchvt 6
+
+## Bind Function keys: Vol & Brightness
+definekey top XF86AudioMute exec pamixer -t
+definekey top XF86AudioLowerVolume exec pamixer -d 5
+definekey top XF86AudioRaiseVolume exec pamixer -i 5
+definekey top XF86MonBrightnessDown exec brightnessctl set 5%-
+definekey top XF86MonBrightnessUp exec brightnessctl set 5%+
+
+## Output configuration
+# output eDP-1 pos 0 0 res 1366x768 rate 60
+output eDP-1 disable
+output eDP-1 enable
+output eDP-1 permanent
+
+output eDP-1 peripheral
+# output eDP-1 prio 1
+# output eDP-2 pos 0 0 res 1366x768 rate 60 scale 2.0
+
+
+## Input configuration
+# Eto oooh para tumino yung touchpad nyo:
+input * tap enabled
+
+# input * natural_scroll false
+# input 1234:0:Device_Ident click_method clickfinger
+# input type:pointer scroll_method two_finger
+# input * calibration_matrix 1 2 3 4 5 6
+
+## Message configuration
+
+# configure_message display_time 1
+# configure_message anchor top_cente
