@@ -5,7 +5,7 @@ background 0.0 0.0 0.0
 
 escape L-q
 
-bind M exec sudo systemctl restart --now ly@tty1
+bind M exec killall -9 cagebreak
 bind s hsplit
 bind S vsplit
 bind Q only

@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Cagebreak
+Name=CagebreakWM
 Comment=A tile-clearing Wayland compositor
-Exec=cb
+Exec=cagebreak
 Type=Application
-DesktopNames=cagebreak
+DesktopNames=cagebreakWM
