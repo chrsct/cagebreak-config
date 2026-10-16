@@ -33,10 +33,10 @@ bind c close
 bind b exec kitty sh -c "watch -n 1 acpi"
 
 # bind m message Hello World!
-definekey resize h resizeleft
-definekey resize l resizeright
-definekey resize j resizedown
-definekey resize k resizeup
+definekey resize Left resizeleft
+definekey resize Right resizeright
+definekey resize Down resizedown
+definekey resize Up resizeup
 definekey resize Escape setmode top
 
 # unhide cursor (default)
