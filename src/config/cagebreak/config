@@ -30,6 +30,7 @@ bind k focusup
 bind l focusright
 bind q exec kitty
 bind c close
+bind b exec kitty sh -c "watch -n 1 acpi"
 
 # bind m message Hello World!
 definekey resize h resizeleft
