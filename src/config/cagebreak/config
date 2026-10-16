@@ -23,7 +23,7 @@ bind C-p movetoprevscreen
 bind H exchangeleft
 bind J exchangedown
 bind K exchangeup
-#bind L exchangeright
+bind L exchangeright
 bind Left focusleft
 bind Down focusdown
 bind Up focusup
