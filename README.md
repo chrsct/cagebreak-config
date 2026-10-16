@@ -18,7 +18,9 @@ What i did here is i set ts as a WM for myself.
 * **a** : show date and time
 * **s** : split vertical
 * **S** : split horizontal
-* **Q** : Only a specific application on your screen <br>
+* **Q** : Only a specific application on your screen
+* **b** : show battery status
+
 #### Workspace
 **Reminder**: You DONT have to press MOD(Windows key) + q to perform an `<action>`.
 **Mod+1** : Go to Workspace 1
