@@ -9,4 +9,4 @@ sudo cp -r src/build/cagebreak /bin/cagebreak
 sudo chmod +x /usr/share/wayland-sessions/cagebreak.desktop
 sudo chmod +x /bin/cagebreak
 echo "Installation complete!"
-echo "Installation complete!"
+echo "Restart your device to use it through your Greeter"
