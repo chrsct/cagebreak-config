@@ -24,10 +24,10 @@ bind H exchangeleft
 bind J exchangedown
 bind K exchangeup
 #bind L exchangeright
-bind h focusleft
-bind j focusdown
-bind k focusup
-bind l focusright
+bind Left focusleft
+bind Down focusdown
+bind Up focusup
+bind Right focusright
 bind q exec kitty
 bind c close
 bind b exec kitty sh -c "watch -n 1 acpi"
