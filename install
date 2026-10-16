@@ -2,7 +2,7 @@
 set -e
 
 echo "Starting installation..."
-sudo pacman -S --needed pamixer brightnessctl libinput kitty chromium --noconfirm
+sudo pacman -S --needed pamixer brightnessctl libinput kitty chromium ascpi --noconfirm
 sudo cp -r src/config/* ~/.config/
 sudo cp -r src/session-config/cagebreak.desktop /usr/share/wayland-sessions/
 sudo rm -r /bin/cagebreak
