@@ -30,7 +30,7 @@ bind Up focusup
 bind Right focusright
 bind q exec kitty
 bind c close
-bind b exec kitty sh -c "watch -n 1 acpi"
+bind b exec toastify send "Battery Status" "$(upower -b | grep percentage | awk '{$1=$1;print}')"
 
 # bind m message Hello World!
 definekey resize Left resizeleft
