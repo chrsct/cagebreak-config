@@ -1,10 +1,7 @@
 ### CagebreakWM (????)
 
 This WM came from **Cagebreak (https://github.com/project-repo/cagebreak)** <br>
-What i did here is i set ts as a WM for myself. 
-
-
-
+What i did here is i set ts as a WM for myself.
 
 ### Keybinds
 **Reminder**: You have to press MOD(Windows key) + q before you perform an `<action>`.
