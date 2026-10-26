@@ -1,4 +1,5 @@
 exec kitty
+exect dunst &
 
 workspaces 6
 background 0.0 0.0 0.0
