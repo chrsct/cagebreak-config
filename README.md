@@ -19,7 +19,7 @@ What i did here is i set ts as a WM for myself.
 * **b** : show battery status
 
 #### Workspace
-**Reminder**: You DONT have to press MOD(Windows key) + q to perform an `<action>`.
+**Reminder**: You DONT have to press MOD(Windows key) + q to perform an `<action>`.<br>
 **Mod+1** : Go to Workspace 1
 * **Mod+2** : Go to Workspace 2
 * **Mod+3** : Go to Workspace 3
